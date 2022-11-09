@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+/* body {
+    font-family: 'Open Sans', sans-serif;
+     background: #34495e; 
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    padding: 20px;
+}
+.container{
+    position: relative;
+}
+a{
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 4px;
+}
+ul{
+    display: flex;
+
+    
+}
+li{
+    list-style: none;
+    padding:1vw;
+   
+
+}
+.nav{
+    background:#a1ceff;
+    display: inline-block;
+    
+
+}
+.logine{
+    display: inline;
+    float: right;
+    padding-top: 28px;
+} */
+
+/* nav a {
+    font-size: 15px;
+    text-decoration: none;
+    line-height: 50px;
+    text-transform: uppercase;
+    color:black;
+    position: relative;
+    text-align: center;
+    z-index: 1;
+    display: inline-block;
+    font-weight: 600;
+}
+
+nav .animation {
+
+    position: absolute;
+    height: 100%;
+    top: 0;
+    z-index: 0;
+    background: #ff4331;
+    border-radius: 8px;
+    transition: all .3s ease 0s;
+} */
+* {
+    padding: 0;
+    margin: 0;
+
+}
+:root{
+    --body-color: #E4E9F7;
+    --header-color: #4070F4;
+    --side-nav: #010718;
+    --text-color: #FFF;
+    --search-bar: #F2F2F2;
+    --search-text: #010718;
+}
+
+
+.intro {
+    background: var(--body-color);
+    box-shadow: 1px 0px 5px;
+    height: 40vh;
+    margin: 0 10vw;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: var(--body-color);
+}
+
+.header {
+    
+    position: sticky;
+    top: 0px;
+    background-color: var(--header-color);
+    color: var(--text-color);
+}
+
+.container {
+
+    align-content: center;
+    padding: 20px 20px 0px 20px;
+    display: flex;
+    
+
+}
+
+/* .form-wrap {
+
+} */
+
+span {
+
+    padding: 1vw;
+}
+
+a {
+    padding: 5px;
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.img1 {
+    margin: 0 10vw;
+}
+
+span.log {
+
+    margin: 0 10vw;
+    
+}
+
+.temp {
+    text-align: center;
+    margin: 0 10vw;
+    background: var(--body-color);
+    box-shadow: 0px 0px 5px;
+
+}
+
+a:hover {
+    border-bottom: 2px solid var(--text-color);
+   
+}
